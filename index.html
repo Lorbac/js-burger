@@ -35,7 +35,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <input type="text" placeholder="Name Your Burger">
+                            <input type="text" id="name" placeholder="Name Your Burger">
                         </div>
                     </div>
                 </div>
@@ -90,10 +90,21 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <div id="coupon">
-
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <label for="coupon">Discount Coupon</label>
+                            <input type="text" id="coupon" placeholder="12345ABCDEF">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                            <button type="button" class="btn btn-lg">Calculate</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <!-- Fine main -->
@@ -101,7 +112,16 @@
         <!-- Inizio footer -->
         <footer>
             <div id="price">
-
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 d-flex">
+                            <span>Your Price</span>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <span>$ 50</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
         <!-- Fine footer -->

@@ -27,30 +27,31 @@ body {
 #title h1 {
     font-size: 30px;
     font-weight: 800 ;
-    padding: 40px 0 20px 20px;
+    padding: 60px 0 20px 20px;
 }
 
 #title img {
     position: absolute;
-    width: 150px;
-    top: -15px;
-    right: -35px;
+    width: 250px;
+    top: -35px;
+    right: -65px;
 }
 
 /* FINE HEADER */
 
 /* MAIN */
 
-#burgerName input {
+#burgerName input[type="text"] {
     border: none;
-    padding: 20px 0 10px 20px;
+    outline: none;
+    padding: 60px 0 10px 20px;
     font-size: 25px;
     font-weight: 600;
     color: gray;
 }
 
 #ingredients{
-    padding: 20px;
+    padding: 10px 0 50px 20px;
 }
 
 #ingredients h2 {
@@ -80,7 +81,7 @@ input[type="checkbox"] {
     vertical-align: middle;
 }
 
-label {
+#ingredients label {
     color: rgb(218, 4, 57);
     font-weight: 600;
     cursor: pointer;
@@ -103,5 +104,39 @@ input[type="checkbox"]:checked{
 input[type="checkbox"]:checked:after {
     display: block;
 }
+
+#coupon input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #FFF5E2;
+    width: 60%;
+    padding: 3px 0 3px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#coupon label {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+#coupon button[type="button"] {
+    background-color: #FDBB40;
+    margin: 30px 0 150px 0;
+    font-weight: 600;
+}
+
+footer {
+    background-color: rgb(218, 4, 57);
+}
+
+#price span {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 35px;
+}
+
 
 /* FINE MAIN */
