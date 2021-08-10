@@ -47,7 +47,6 @@ body {
     padding: 60px 0 10px 20px;
     font-size: 25px;
     font-weight: 600;
-    color: gray;
 }
 
 #ingredients{
@@ -68,7 +67,6 @@ body {
 #ingredients .ingredient {
     font-weight: 600;
     padding-right: 15px;
-    
 }
 
 input[type="checkbox"] {

@@ -51,42 +51,42 @@
                         <div class="col-6">
                             <img src="img/cheese.svg" alt="">
                             <span class="ingredient">Cheese</span>
-                            <input type="checkbox" name="cheese" id="cheese">
-                            <label for="chees">add</label>
+                            <input class="myCheckbox" value="5" type="checkbox" name="cheese" id="cheese">
+                            <label for="cheese">add</label>
                         </div>
                         <div class="col-6">
                             <img src="img/tomato.svg" alt="">
                             <span class="ingredient">Tomato</span>
-                            <input type="checkbox" name="tomato" id="tomato">
-                            <label for="chees">add</label>
+                            <input class="myCheckbox" value="3" type="checkbox" name="tomato" id="tomato">
+                            <label for="tomato">add</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
                             <img src="img/fried-egg.svg" alt="">
                             <span class="ingredient">Egg</span>
-                            <input type="checkbox" name="egg" id="egg">
-                            <label for="chees">add</label>
+                            <input class="myCheckbox" value="4" type="checkbox" name="egg" id="egg">
+                            <label for="egg">add</label>
                         </div>
                         <div class="col-6">
                             <img src="img/lettuce.svg" alt="">
                             <span class="ingredient">Lettuce</span>
-                            <input type="checkbox" name="lettuce" id="lettuce">
-                            <label for="chees">add</label>
+                            <input class="myCheckbox" value="8" type="checkbox" name="lettuce" id="lettuce">
+                            <label for="lettuce">add</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
                             <img src="img/mustard.svg" alt="">
                             <span class="ingredient">Mustard</span>
-                            <input type="checkbox" name="mustard" id="mustard">
-                            <label for="chees">add</label>
+                            <input class="myCheckbox" value="7" type="checkbox" name="mustard" id="mustard">
+                            <label for="mustard">add</label>
                         </div>
                         <div class="col-6">
                             <img src="img/ketchup.svg" alt="">
                             <span class="ingredient">Ketchup</span>
-                            <input type="checkbox" name="ketchup" id="ketchup">
-                            <label for="chees">add</label>
+                            <input class="myCheckbox" value="10" type="checkbox" name="ketchup" id="ketchup">
+                            <label for="ketchup">add</label>
                         </div>
                     </div>
                 </div>
@@ -96,12 +96,12 @@
                     <div class="row">
                         <div class="col">
                             <label for="coupon">Discount Coupon</label>
-                            <input type="text" id="coupon" placeholder="12345ABCDEF">
+                            <input type="text" id="couponText" placeholder="12345ABCDEF">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex justify-content-center">
-                            <button type="button" class="btn btn-lg">Calculate</button>
+                            <button id="button" type="button" class="btn btn-lg">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                             <span>Your Price</span>
                         </div>
                         <div class="col-6 d-flex justify-content-end">
-                            <span>$ 50</span>
+                            <span><span>$</span><span id="priceText">10</span></span>
                         </div>
                     </div>
                 </div>
