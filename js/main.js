@@ -1,5 +1,3 @@
-let price = 10;
-
 let coupon = ["IDVINO1234", "LORENZO1234", "SCONTAMI123"];
 
 // CREO UNA VARIABILE CON L'INPUT DEL BUTTON E AGGIUNGO L'ADDEVENTLISTENER IN MODO CHE CON IL CLICK FACCIA DETERMINATE COSE CHE ANDRO' IN SEGUITO A DESCRIVERE 
@@ -9,7 +7,7 @@ let btnCalcola = document.getElementById("button");
 btnCalcola.addEventListener("click",
 function () {
 
-    // CICLO FOR PER INSERIRE I VALUE (PREZZI) CHE SONO STATI CHECKATI DEGLI INGREDIENTI IN UN ARRAY
+    // CICLO FOR PER INSERIRE I VALUE (PREZZI) DEGLI INGREDIENTI CHE SONO STATI CHECKATI  IN UN ARRAY
 
     var ingredientPrice = document.getElementsByClassName("myCheckbox");
     var choosenIngredients = [];
@@ -22,6 +20,8 @@ function () {
 
     // SOMMO TUTTI I PREZZI DEGLI INGREDIENTI CON UN ALTRO CICLO FOR
     
+    let price = 10;
+
     for (let i = 0; i < choosenIngredients.length; i++) {
         price += choosenIngredients[i];
     }
